@@ -1,0 +1,16 @@
+{
+  "Title": "beststories-down",
+  "Request": {
+    "Methods": ["GET"],
+    "Path": {
+      "Matchers": [
+        { "Name": "WildcardMatcher", "Pattern": "/v0-down/beststories.json" }
+      ]
+    }
+  },
+  "Response": {
+    "StatusCode": 500,
+    "Headers": { "Content-Type": "application/json" },
+    "Body": "{\"error\":\"upstream unavailable\"}"
+  }
+}

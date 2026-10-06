@@ -1,0 +1,12 @@
+bin/
+obj/
+out/
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+README.md
+**/bin/
+**/obj/
+tests/

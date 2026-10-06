@@ -1,0 +1,16 @@
+{
+  "Title": "item-103",
+  "Request": {
+    "Methods": ["GET"],
+    "Path": {
+      "Matchers": [
+        { "Name": "WildcardMatcher", "Pattern": "/v0/item/103.json" }
+      ]
+    }
+  },
+  "Response": {
+    "StatusCode": 200,
+    "Headers": { "Content-Type": "application/json" },
+    "Body": "{\"id\":103,\"by\":\"tester3\",\"descendants\":9,\"score\":200,\"time\":1570887783,\"title\":\"Stub story 103\",\"type\":\"story\",\"url\":\"https://example.com/103\"}"
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      # Development keeps Swagger UI + OpenAPI document available.
+      # Switch to Production to disable them.
+      ASPNETCORE_ENVIRONMENT: Development
+      # Uncomment to enforce X-Api-Key authentication:
+      # Authentication__ApiKey: change-me
